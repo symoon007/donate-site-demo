@@ -170,6 +170,7 @@ background-color: rgb(233, 250, 227);
 footer {
     background-color: rgb(36, 34, 34);
     padding: 100px 0;
+    margin-bottom: 0;
 }
 footer h3 {
     font-family: 'Lobster', cursive;
