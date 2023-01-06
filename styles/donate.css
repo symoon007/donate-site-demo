@@ -26,6 +26,7 @@
  justify-content: center;
  text-align: center;
  align-items: center;
+ margin-bottom: 120px;
 }
 .banner-content {
      
@@ -43,4 +44,99 @@
     line-height: 1.5;
 }
 
+
+
 /* main section styles */
+.donate-container , .plan-container {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    
+}
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+.section-description {
+    color: rgb(72, 87, 87);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+.amount ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+ul li {
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 45px 18px;
+    border-radius: 5px;
+    background-color:rgb(243, 247, 247)
+}
+.li-special {
+    background-color:lightcyan; 
+    color: rgb(50, 209, 201); 
+    border: 2px solid rgb(50, 209, 201);  
+}
+form input {
+    padding: 0px 300px;
+    border: none;
+    border-bottom: 1px solid rgb(103, 105, 105);
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(103, 105, 105);
+}
+.plan-details {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    gap: 30px;
+    width: 80%;
+    margin-bottom: 120px;
+}
+.plan-details div {
+    padding: 50px 20px;
+    border-radius: 5px;
+
+}
+.sub-title {
+    margin-top: 30px;
+}
+.food {
+background-color: rgb(233, 250, 227);
+}
+.shelter {
+    background-color: rgb(204, 250, 222);
+}
+.education {
+    background-color: rgb(250, 225, 235);
+}
+/* description styles */
+.description-content1, .description-content2{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.photos img {
+    height: 400px;
+    width: 500px;
+}
+.plan-description {
+    padding: 120px 50px;
+
+    
+}
+.plan-description h1 {
+    font-size: 2.5rem;
+    font-weight:600;
+}
+.
