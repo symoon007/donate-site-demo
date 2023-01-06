@@ -86,7 +86,7 @@ ul li {
     color: rgb(50, 209, 201); 
     border: 2px solid rgb(50, 209, 201);  
 }
-form input {
+form input[type="number"] {
     padding: 0px 300px;
     border: none;
     border-bottom: 1px solid rgb(103, 105, 105);
@@ -135,8 +135,53 @@ background-color: rgb(233, 250, 227);
 
     
 }
-.plan-description h1 {
+.plan-description h1, .contact-info h3 {
     font-size: 2.5rem;
     font-weight:600;
 }
-.
+.contact-info, footer {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.form-div {
+    
+}
+.contact-info form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+    height: 100px;
+    padding-top: 35px;
+}
+.contact-info input {
+    padding: 22px 50px;
+    border:0;
+    background-color:lightblue;
+    gap: 0;
+}
+/* footer styles */
+footer {
+    background-color: rgb(36, 34, 34);
+    padding: 100px 0;
+}
+footer h3 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+    color: rgb(50, 209, 201);
+    font-weight: 600;
+    font-size: 25px;
+}
+footer p{
+    color:rgb(204, 250, 222)
+}
+footer .copy {
+    color:aliceblue;
+    margin-top: 20px;
+}
